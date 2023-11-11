@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search Answers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Google Search</a>
+        <a href="#">About Us</a>
+    </nav>
+
+    <div class="container">
+        <h1>Ask a Question:</h1>
+        <input type="text" id="questionInput" placeholder="Type your question...">
+        <button onclick="getAnswer()">Get Answer</button>
+
+        <h2>Answer:</h2>
+        <p id="answer"></p>
+    </div>
+
+    <div class="container google-search-container">
+        <h2>Google Search</h2>
+        <script async src="https://cse.google.com/cse.js?cx=0752aef4a4d2f4c27"></script>
+        <div class="gcse-search"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+         <strong>   <p class="footer-text" > <center>Created by Harshit Patel</center></p></strong>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
